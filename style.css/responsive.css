@@ -1,0 +1,55 @@
+@media screen and (max-width:768px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filme-principal {
+        height:50vh; 
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    nav {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .filme-principal {
+        height: 30vh; 
+    }
+
+    .filme-principal .descricao {
+        margin: auto;
+    }
+
+    .filme-principal p {
+        font-size: 11px;
+        padding-bottom: 5px;
+    }
+
+    .titulo {
+        margin-top: -5%;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 280px;
+        padding: 10px;
+    }
+
+    
+
+}
